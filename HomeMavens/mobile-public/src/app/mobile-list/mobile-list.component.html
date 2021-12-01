@@ -1,0 +1,63 @@
+
+<body>
+    <div class="container">
+     <div class="heading">New listings daily, right at your fingertips.</div>
+        <ul> 
+            <li *ngFor="let mobile of mobiles;">         
+                  <a routerLink="/mobiles/{{mobile._id}}">{{mobile.property}}</a>                           
+            </li> 
+        </ul>
+
+        <!--<div class="jumbotron">
+            <div class="display-4">
+              <div class="row">
+                <div class="col-md-6">
+                  <h2>FEEL THE LOVE WITH iPHONE AND MEMBER BENEFITS.</h2>
+                  <p>Hook up a hot new phone for $0 down with Sweet Pay on eligible 2-year plans. Taxes extra.</p>
+                  <button class="AddNewBtn" type="button">Shop Phones</button>
+                </div>
+                <div class="col-md-6">
+                  <h2>GET THAT ‘I LOVE MY NEW PHONE’ FEELING WITH SWEET PAY</h2>
+                  <p>Hook up a hot new phone for $0 down with Sweet Pay on eligible 2-year plans. Taxes extra.</p>
+                  <button class="AddNewBtn" type="button">Shop Phones</button>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="sidebar">
+            <div class="sidebar-one">             
+                <h3>Explore Canada’s most popular cities</h3>
+                <p>Vancouver,BC     Toronto,ON      Ottawa,ON     Calgary,AB      Winnibeg,WB     Surrey,BC</p>
+            </div>
+        </div>
+
+
+          <div class="heading">Useful information. For buyers. For sellers. For fun.</div>
+
+          <div class="box-area">
+            <div class="single-box"> 
+              <img class="img-area1">    
+                      <h3 class="head-area">Investment Products and Solutions</h3>
+                      <p class="para-area">Industry-leading investment expertise that delivers long-term results to investors.</p>
+                      <button type="button" class="AddNewBtn" >Learn More</button>      
+            </div>
+            <div class="single-box"> 
+                <img class="img-area2">      
+                        <h3 class="head-area">Our Story</h3>
+                        <p class="para-area">From our humble beginnings in 1913 to present day, read all about the milestones that have defined Royal LePage.</p>
+                        <button type="button" class="AddNewBtn" >Learn More</button>
+            </div>
+            <div class="single-box"> 
+              <img class="img-area3">      
+                      <h3 class="head-area">Shelter Foundation</h3>
+                      <p class="para-area">HomeMavens has its own charitable foundation dedicated to funding women’s shelters.</p>
+                      <button type="button" class="AddNewBtn" >Learn More</button>
+            </div>
+          </div>
+          
+    </div>
+    <footer class="bg-dark text-center text-white">© 2020 Copyright</footer>
+
+</body>
+

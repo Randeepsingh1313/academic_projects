@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,700&display=swap');
+
+.heading{
+  color: #424242;
+}
+.AddBtn{
+    width: 130px;
+    margin: 10px;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    background-color: #c81313;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 1s ease;
+    border-radius: 4px;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;  
+  }
+ .AddBtn:hover {
+    text-decoration: none;
+    background-color: #A81313;
+    color: #FFFFFF;
+    transition: 1s ease;
+    list-style-type: none;
+    outline: none;
+  }
+
+form {
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-wrap: nowrap;
+	flex-direction: column;
+  max-width: 300px;
+	height: 100%;  
+	text-align: center;
+}
+.container1 {
+	background-color: #FFFFFF;
+	border-radius: 4px;
+  	box-shadow: 0 10px 20px -10px #222222;
+    margin-left: 60px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 360px;
+    margin-bottom: 50px;
+}
+input {
+	  background-color: #d1d1d1;
+	  border: none;
+	  padding: 10px 10px;
+	  width: 100%;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #222222;
+}
+label{
+    font-weight: 700;
+    font-size: 20px;
+}
+.heading {
+    font-weight: 700;  
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: .9px;
+    color: #FFFFFF;
+    color: #222222;
+  }
+  .form-label{    
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: .9px;
+    color: #222222;
+  }
+  .bg-dark.text-center.text-white{
+    background-color: #222222;
+    height: 70px;
+    color: #FFFFFF;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      letter-spacing: .9px;
+      padding-top: 20px;
+  
+  }
+

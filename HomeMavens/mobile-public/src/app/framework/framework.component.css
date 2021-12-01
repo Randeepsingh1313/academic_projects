@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,700&display=swap');
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+.container-fluid{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: .9px;
+  background-color: #FFFFFF;
+}
+.container{
+  position: relative;
+	overflow: hidden;
+}
+.nav.navbar-nav.tfloat-right{
+  background-color: #FFFFFF;
+}
+.navbar-brand{
+  font-weight: bolder;
+  color: #FFFFFF; 
+  font-size: 24px;
+}
+.nav-link{
+  color: #ffffff;
+  list-style: none;
+}
+.container-fluid{
+  background-color: #A81313;
+
+}
+#myNavbar.navbar-collapse.collapse.navbar-inverse{
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #A81313;
+}
+.container .jumbotron{
+  background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/gmg/2HZ4BC5E4BHXXFZJGKRRJ2QJFQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto; 
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 500px;
+}
+.container .jumbotron h1{
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 40px;
+  
+} 
+.sidebar{
+  position: relative;
+  background-color: #222222;
+  max-height: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  padding: 15px;
+  font-size: 10px;
+  margin-top: 200px;
+  border-radius: 8px;
+}
+.sidebar-one{
+  height: 230px;
+}
+
+.container .jumbotron p{
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: .9px;
+}
+.jumbotron .display-4 .row .col-md-6{
+  margin-bottom: 80px;
+}
+.jumbotron .display-4 .row .col-md-6 h2 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+}
+.jumbotron .display-4 .row .col-md-6 p {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+button.btn.btn-primary{
+  width: 130px;
+  margin: 10px;
+  padding: 10px 10px;
+  color: #c81313;
+  background-color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 1s ease;
+  border-radius: 4px;
+  list-style-type: none;
+  outline: none;
+}
+button.btn.btn-primary:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #c81313;
+  transition: 1s ease;
+  list-style-type: none;
+  outline: none;
+}
+
+/* FOOTER*/
+.footer {
+  bottom: 0;
+  width: auto;
+  height: 60px; /* Set the fixed height of the footer here */
+  background-color: #222222;
+}
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
